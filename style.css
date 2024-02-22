@@ -1,0 +1,25 @@
+body {
+  background-color: #f1f1f1;
+}
+
+.intro {
+  margin: 10px;
+}
+
+li {
+  list-style-type: none;
+}
+
+li a {
+  text-decoration: none;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.gallery a img {
+  height: 200px;
+  width: 200px;
+}
